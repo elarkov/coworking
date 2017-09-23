@@ -1,0 +1,94 @@
+/*=== footer ===*/
+
+.footer {
+  background-color: #27273e;
+  height: 77px;
+  min-width: 1080px;
+  margin-top: 12px;
+}
+
+.footer__logo {
+  display: inline-block;
+}
+
+.footer__box {
+  float: left; 
+}
+
+.menu__social_item {
+  display: inline-block; 
+}
+
+.box {
+  display: inline-block;
+  vertical-align: middle;
+  width: 33%;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.28;
+  color: #ffffff; 
+  padding-top: 11px;
+  text-align: center;
+}
+
+.box__text {
+  margin: 0; 
+  text-align: left;
+}
+
+.box__school,
+.box__author {
+  font-weight: bold; 
+}
+
+.box__school {
+  text-decoration: underline; 
+}
+
+
+.box_last {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 18px 0 0 180px;
+}
+
+.box__header {
+  text-align: left;
+  margin: 0; 
+}
+
+.footer__social {
+  text-align: left; 
+}
+
+.list {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  margin: 6px 0; 
+}
+
+.list__item {
+  display: inline-block;
+  padding-right: 6px; 
+}
+
+.list__link {
+  background-color: #d4d4d8;
+  font-size: 12px;
+  display: block;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  line-height: 1.75;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  color: #27273e;
+  -webkit-transition: color .5s ease, background-color .5s ease;
+  -o-transition: color .5s ease, background-color .5s ease;
+  transition: color .5s ease, background-color .5s ease; 
+}
+
+.list__link:hover {
+  background-color: rgba(236, 30, 121, 0.8); 
+}

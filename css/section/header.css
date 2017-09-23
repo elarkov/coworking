@@ -1,0 +1,40 @@
+/*=== header ===*/
+.header {
+  background-color: #27273e;
+  height: 76px;
+  padding-top: 12px;
+  margin-bottom: 33px;
+  position: relative; 
+}
+
+.logo {
+  width: 50%;
+  display: inline-block;
+}
+
+.contacts {
+  color: #ffffff;
+  text-align: right;
+  width: 49%;
+  display: inline-block;
+}
+
+  .contacts__phone {
+    font-family: "gothapro", sans-serif, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    font-style: normal;
+    display: block; 
+    color: #fff;
+    text-decoration: none;
+    line-height: 1;
+  }
+
+  .contacts__chart {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    color: #ec1e79;
+    text-decoration: underline;
+    cursor: pointer; 
+  }
