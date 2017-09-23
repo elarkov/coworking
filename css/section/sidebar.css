@@ -13,7 +13,6 @@
   text-transform: uppercase;
   letter-spacing: 1.2px;
   line-height: 4.16; 
-  margin-bottom: 32px;
 }
 
 .menu__link {
@@ -53,8 +52,7 @@
   width: 21px;
   height: 19px;
   display: inline-block;
-  vertical-align: middle;
-  margin-right: 20px;
+  margin-right: 10px;
 
 }
 
@@ -66,7 +64,6 @@
   font-weight: 700;
   line-height: 4.5px;
   text-transform: uppercase;
-  vertical-align: middle;
 }
 
 .menu__icon_tringle {

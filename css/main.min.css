@@ -2317,8 +2317,9 @@
   content: '\25cf';
   color: #ec1e79;
   position: absolute;
-  left: 339px;
-  font-size: 15px;
+  left: 337px;
+  font-size: 12px;
+  margin-top: 3px;
 }
 
 .about__description p strong {
@@ -2349,7 +2350,7 @@
   padding-top: 23px;
 }
 
-.about__adv {
+.about__box {
   width: 160px;
   display: inline-block;
   text-align: center;
