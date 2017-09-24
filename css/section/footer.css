@@ -42,6 +42,7 @@
   display: inline-block;
   color: #fff;
   text-decoration: none; 
+  cursor: pointer;
 }
 
 .box__school {

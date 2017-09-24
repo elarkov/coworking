@@ -8,16 +8,16 @@
 }
 
 .logo {
-  width: 50%;
   display: inline-block;
+  float: left;
 }
 
 .contacts {
   color: #ffffff;
   text-align: right;
-  width: 49%;
   display: inline-block;
   vertical-align: text-bottom;
+  float: right;
 }
 
   .contacts__phone {
