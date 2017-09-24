@@ -2224,8 +2224,12 @@
 
 /*=== page workadium ===*/
 
+.about {
+  width: 879px;
+}
+
 .about__header {
-  background-image: url(../img/img-workadium.png);
+  background-image: url(../img/img-workadium.jpg);
   background-repeat: no-repeat;
   height: 354px;
   position: relative;
@@ -2248,8 +2252,14 @@
 }
 
 .about__description {
-  padding-top: 31px;
-  padding-right: 224px;
+  padding-top: 24px;
+  padding-right: 153px;
+  margin-bottom: 25px;
+}
+
+.about__description ul {
+  margin-top: 9px;
+  margin-bottom: 9px;
 }
 
 .about__description p,
@@ -2262,8 +2272,13 @@
   margin: 0;
 }
 
+.about__description p:nth-child(1) {
+  margin-bottom: 16px;
+}
+
 .about__description ul li {
   list-style-type: none;
+  margin-bottom: 6px;
 }
 
 .about__description ul li:before {
@@ -2281,14 +2296,12 @@
 
 .about__promo {
   background-color: #27273e;
-  width: 700px;
-  padding: 20px 59px 16px 30px;
+  width: 702px;
+  padding: 17px 8px 9px 30px;
   font-size: 18px;
   color: #ffffff;
   font-weight: 300;
-  line-height: 1.44;
-  margin-top: 33px;
-  margin-bottom: 47px;
+  line-height: 1.64;
 }
 
   .about__promo span {
@@ -2300,8 +2313,12 @@
     margin: 0;
   }
 
-.about__partner {
-  padding-top: 23px;
+.about__footer {
+  padding-top: 47px;
+}
+
+.about__adv {
+  padding-top: 21px;
 }
 
 .about__box {

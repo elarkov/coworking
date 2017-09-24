@@ -1,13 +1,14 @@
 /*=== OURPRICE ===*/
 
+.our-price {
+  padding-top: 38px;
+  margin-bottom: 20px;
+}
+
 .content {
   float: left;
   margin-left: 75px;
-  width: 860px;
-}
-
-.breadcrumbs {
-  margin-bottom: 4px;
+  width: 880px;
 }
 
 .breadcrumbs__list {

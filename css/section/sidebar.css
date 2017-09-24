@@ -16,7 +16,10 @@
   line-height: 4.16; 
 }
 
-.menu__link { text-decoration: none; }
+.menu__link { 
+  text-decoration: none;
+  display: inline-block;
+}
 
 .menu__link:hover .menu__text { color: #221f1f; }
 
@@ -36,7 +39,7 @@
   width: 21px;
   height: 19px;
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 13px;
 }
 
 .menu__text {
@@ -72,4 +75,5 @@
 .sidebar {
   width: 105px;
   float: left; 
+  padding-top: 33px;
 }
