@@ -7,7 +7,7 @@
 
 .content {
   float: left;
-  margin-left: 75px;
+  margin-left: 70px;
   width: 880px;
 }
 
@@ -92,6 +92,7 @@
 }
 
 .price__description {
+  font-family: "gothapro", sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.16; 
@@ -100,33 +101,59 @@
 .price__img_one,
 .price__img_two,
 .price__img_three {
-  padding: 63px 73px 64px 66px;
-  margin-bottom: 26px; 
+  margin-bottom: 26px;
+  position: relative;
+  padding: 10px;
 }
 
-.price__img_one { background-image: url(../../img/img1.png); }
+.price__img_one { 
+  background-image: url(../../img/img1.png);
+}
 
-.price__img_two { background-image: url(../../img/img2.png); }
+.price__img_two { 
+  background-image: url(../../img/img2.png); 
+}
 
-.price__img_three { background-image: url(../../img/img3.png); }
+.price__img_three { 
+  background-image: url(../../img/img3.png);
+}
 
 .price__img_four {
   background-image: url(../../img/img4.png);
-  padding: 24px 40px 34px 36px;
+  position: relative;
   margin-bottom: 26px; 
+  padding: 10px;
+}
+
+.price__img_four .price__text {
+  top: 15%;
+  left: 15%;
 }
 
 .price__img_fifth {
   background-image: url(../../img/img5.png);
-  padding: 25px 44px 38px 39px;
-  margin-bottom: 26px; 
+  margin-bottom: 26px;
+  padding: 10px; 
+  position: relative;
+}
+
+.price__img_fifth .price__text {
+  top: 15%;
+  left: 5%;
 }
 
 .price__img_six {
   background-image: url(../../img/img6.png);
-  padding: 65px 23px 66px 17px;
   margin-bottom: 26px; 
+  padding: 10px;
+  position: relative;
 }
+
+.price__img_six .price__text {
+  top: 36%;
+  left: 10%;
+}
+
 
 .fa-angle-double-left:before {
   content: "\f100";
@@ -151,4 +178,7 @@
   line-height: 1.41;
   text-transform: uppercase;
   margin: 0; 
+  position: absolute;
+  left: 30%;
+  top: 40%;
 }

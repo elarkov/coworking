@@ -4,6 +4,7 @@
   background-color: #27273e;
   min-width: 1080px;
   margin-top: 9px;
+  padding-top: 11px;
   padding-bottom: 12px;
 }
 
@@ -23,11 +24,11 @@
   display: inline-block;
   vertical-align: middle;
   width: 33%;
+  font-family: "gothapro", sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.28;
   color: #ffffff; 
-  padding-top: 11px;
   text-align: center;
 }
 
@@ -52,7 +53,7 @@
 .box_last {
   font-size: 14px;
   font-weight: 700;
-  padding: 18px 0 0 180px;
+  padding: 18px 0 0 177px;
 }
 
 .box__header {
@@ -73,9 +74,11 @@
 
 .list__item {
   display: inline-block;
-  padding-right: 6px; 
+  margin-right: 6px; 
 }
 
+
+/*=== icon fonts ==*/
 .list__link {
   background-color: #d4d4d8;
   font-size: 12px;

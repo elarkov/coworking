@@ -4,7 +4,6 @@
   list-style-type: none;
   padding-left: 0;
   margin: 0;
-  width: 125px;
   position: relative; 
 }
 
@@ -13,27 +12,63 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1.2px;
-  line-height: 4.16; 
+  margin-bottom: 34px;
 }
 
+.menu__item:last-child {
+  margin-bottom: 0;
+}
+
+/*=== sprite-left-menu ===*/
 .menu__link { 
+  background: url(../../img/sprite-left-menu.png) -100px -85px no-repeat;
   text-decoration: none;
   display: inline-block;
+  padding-left: 30px;
 }
 
-.menu__link:hover .menu__text { color: #221f1f; }
+.menu__link_tirngle {
+  background-position: -100px -534px;
+}
 
-.menu__link:hover .menu__icon_tringle { background-image: url(../../img/tringle-active.png);}
+.menu__link_wallet {
+  background-position: -100px -966px;
+}
 
-.menu__link:hover .menu__icon_wallet { background-image: url(../../img/wallet-active.png); }
+.menu__link_star {
+  background-position: -100px -100px;
+}
 
-.menu__link:hover .menu__icon_star { background-image: url(../../img/star-active.png); }
+.menu__link:hover .menu__text { 
+  color: #221f1f;
+  transition: 0.5s;
+ }
 
-.menu__item_active .menu__icon_tringle { background-image: url(../../img/tringle-active.png); }
+.menu__link_tirngle:hover {
+  background-position: -100px -751px;
+}
 
-.menu__item_active .menu__icon_wallet { background-image: url(../../img/wallet-active.png); }
+.menu__link_wallet:hover {
+  background-position: -100px -1183px;
+}
 
-.menu__item_active .menu__icon_star { background-image: url(../../img/star-active.png); }
+.menu__link_star:hover {
+  background-position: -100px -317px;
+}
+
+.menu__item_active .menu__link_tirngle {
+  background-position: -100px -750px;
+}
+
+.menu__item_active .menu__link_wallet {
+  background-position: -100px -1184px;
+}
+
+.menu__item_active .menu__link_star {
+  background-position: -100px -315px;
+}
+
+.menu__item_active .menu__link .menu__text { color: #221f1f; }
 
 .menu__icon {
   width: 21px;
@@ -45,35 +80,15 @@
 .menu__text {
   color: #ec1e79;
   display: inline-block;
-  font-family: "Gotham Pro";
+  font-family: "gothapro", sans-serif;
   font-size: 12px;
   font-weight: 700;
-  line-height: 4.5px;
+  line-height: 1;
   text-transform: uppercase;
 }
 
-.menu__icon_tringle {
-  background-image: url(../../img/tringle.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.menu__icon_wallet {
-  background-image: url(../../img/wallet.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.menu__icon_star {
-  background-image: url(../../img/star.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.menu__item_active .menu__link .menu__text { color: #221f1f; }
-
 .sidebar {
-  width: 105px;
+  width: 110px;
   float: left; 
   padding-top: 33px;
 }
