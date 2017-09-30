@@ -7,17 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Отзывы Coworking</title>
-
+  
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
-  <link rel="stylesheet" href="css/main.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+	<link rel="stylesheet" href="css/libs/animate.css">
+  <link rel="stylesheet" href="css/main.css">
 
 </head>
 
 <body>
 <div class="wrapper">
 
-<!--HEADER-->
+	<!--HEADER-->
 	<header class="header">
 		<div class="container clearfix">
 			<a class="logo" href="/">
@@ -38,14 +40,14 @@
 		</div><!--/.conntainer-->
 	</header>
 
-<!--MAIN -->
+	<!--MAIN -->
 	<main class="main-content">
 			<div class="container clearfix">
 				<aside class="sidebar">
 					<nav class="nav">
 						<ul class="menu">
 							<li class="menu__item">
-								<a class="menu__link menu__link_tirngle" href="/">
+								<a class="menu__link menu__link_tirngle" href="workadium.html">
 								<div class="menu__text">Главная</div>
 								</a>
 							</li>
@@ -55,7 +57,7 @@
 								</a>
 							</li>
 							<li class="menu__item menu__item_active">
-								<a class="menu__link menu__link_star" href="#">
+								<a class="menu__link menu__link_star" href="comments.html">
 								<div class="menu__text">Отзывы</div>
 								</a>
 							</li>
@@ -64,10 +66,11 @@
 				</aside>
 				<div class="content">
 					<div class="our-price">
+
 						<div class ="breadcrumbs">
 							<ul class="breadcrumbs__list">
 								<li class="breadcrumbs__item">
-									<a class="breadcrumbs__link" href="/">Главная</a>
+									<a class="breadcrumbs__link" href="workadium.html">Главная</a>
 								</li>
 								<li class="breadcrumbs__item">
 									<a class="breadcrumbs__link breadcrumbs__link_active" href="#">Отзывы</a>
@@ -77,145 +80,169 @@
 
 						<h1 class="content__text">Отзывы</h1>
 
-					<!-- PRICE-->	
-					<ul class="testimonials clearfix">
-					
-					<li class="testimonials__wrapper">
-						<div class="testimonials__img">
-								<img src="img/userpic1.png" alt="">
-						</div>
-						<div class="testimonials__desc">
-							<p class="testimonials__date">12.10.2016</p>
-							<p class="testimonials__title">Олег Павлов</p>
-							<p class="testimonials__text">Пользуемся услугами коворкинга стабильно раз в неделю, 
-							когда проводим совещания директоров. 
-							Получается намного дешевле и удобно всем добираться. 
-							Единственное пожелание – расширить меню, 
-							потому что бизнес-ланчи – это все таки средний уровень, 
-							а хочется чего то более вкусного, чтобы можно было угощать начальство.</p>
-						</div>
-						</li>
+						<!-- TESTIMONIALS -->	
+						<ul class="testimonials clearfix">
+						
+							<li class="testimonials__wrapper">
+								<div class="testimonials__img">
+										<img src="img/userpic1.png" alt="userpic">
+								</div>
+								<div class="testimonials__desc">
+									<p class="testimonials__date">12.10.2016</p>
+									<p class="testimonials__title">Олег Павлов</p>
+									<p class="testimonials__text">Пользуемся услугами коворкинга стабильно раз в неделю, 
+									когда проводим совещания директоров. 
+									Получается намного дешевле и удобно всем добираться. 
+									Единственное пожелание – расширить меню, 
+									потому что бизнес-ланчи – это все таки средний уровень, 
+									а хочется чего то более вкусного, чтобы можно было угощать начальство.</p>
+								</div>
+							</li>
 
-<li class="testimonials__wrapper">
-						<div class="testimonials__img">
-								<img src="img/userpic2.png" alt="">
-						</div>
-						<div class="testimonials__desc">
-							<p class="testimonials__date">01.02.2016</p>
-							<p class="testimonials__title">Эрнест Изиль</p>
-							<p class="testimonials__text">Я фрилансер, программист, работать дома не могу, 
-							так как мешают дети. Здесь нашел то, что давно искал – тишину и спокойствие. 
-							Эффективность работы выросла, как и гонорары. Очень удобно, 
-							что коворкинг находится недалеко от метро. Стабильный интернет, чистота и порядок 
-							вокруг, никто не мешает. Цены сначала показались высокими, но учитывая полученные 
-							преимущества, все отлично!</p>
-						</div>
-</li>
+							<li class="testimonials__wrapper">
+								<div class="testimonials__img">
+										<img src="img/userpic2.png" alt="userpic">
+								</div>
+								<div class="testimonials__desc">
+									<p class="testimonials__date">01.02.2016</p>
+									<p class="testimonials__title">Эрнест Изиль</p>
+									<p class="testimonials__text">Я фрилансер, программист, работать дома не могу, 
+									так как мешают дети. Здесь нашел то, что давно искал – тишину и спокойствие. 
+									Эффективность работы выросла, как и гонорары. Очень удобно, 
+									что коворкинг находится недалеко от метро. Стабильный интернет, чистота и порядок 
+									вокруг, никто не мешает. Цены сначала показались высокими, но учитывая полученные 
+									преимущества, все отлично!</p>
+								</div>
+							</li>
 
-						<li class="testimonials__wrapper">
-						<div class="testimonials__img">
-								<img src="img/nouserpic.png" alt="">
-						</div>
-						<div class="testimonials__desc">
-							<p class="testimonials__date">22.12.2015</p>
-							<p class="testimonials__title">Елена Сургай</p>
-							<p class="testimonials__text">Захожу сюда не часто, так как не мой район, но когда бываю в центре, 
-							то периодически нужно место для плодотворной работы. Интернет-клубы не подходят, 
-							так как не обеспечивают такой уровень сервиса, как Воркадиум. 
-							Здесь я нахожу вдохновение и могу выделить время для творчества. 
-							Желаю Воркадиуму процветания и развития. Если будете открывать филиалы, 
-							обратите внимание на Алексеевский район, я буду вашим постоянным клиентом :) </p>
-						</div>
-						</li>
+							<li class="testimonials__wrapper">
+								<div class="testimonials__img">
+										<img src="img/nouserpic.png" alt="userpic">
+								</div>
+								<div class="testimonials__desc">
+									<p class="testimonials__date">22.12.2015</p>
+									<p class="testimonials__title">Елена Сургай</p>
+									<p class="testimonials__text">Захожу сюда не часто, так как не мой район, но когда бываю в центре, 
+									то периодически нужно место для плодотворной работы. Интернет-клубы не подходят, 
+									так как не обеспечивают такой уровень сервиса, как Воркадиум. 
+									Здесь я нахожу вдохновение и могу выделить время для творчества. 
+									Желаю Воркадиуму процветания и развития. Если будете открывать филиалы, 
+									обратите внимание на Алексеевский район, я буду вашим постоянным клиентом :) </p>
+								</div>
+							</li>
 
-					<li class="testimonials__wrapper">
-						<div class="testimonials__img">
-								<img src="img/userpic3.png" alt="">
-						</div>
-						<div class="testimonials__desc">
-							<p class="testimonials__date">14.08.2015</p>
-							<p class="testimonials__title">Наталья Осадчая</p>
-							<p class="testimonials__text">Провожу здесь встречи с клиентами в неформальной 
-							обстановке. Удобно, что при необходимости все под рукой – и ксерокс, 
-							и принтер и магазин канцелярии. Заключаю здесь свои лучшие договора. 
-							Единственное пожелание – сделайте еще несколько переговорных комнат 
-							на 10-15 человек, а то они пользуются большим спросом и не всегда есть 
-							возможность забронировать.</p>
-						</div>
-						</li>
+							<li class="testimonials__wrapper">
+								<div class="testimonials__img">
+										<img src="img/userpic3.png" alt="userpic">
+								</div>
+								<div class="testimonials__desc">
+									<p class="testimonials__date">14.08.2015</p>
+									<p class="testimonials__title">Наталья Осадчая</p>
+									<p class="testimonials__text">Провожу здесь встречи с клиентами в неформальной 
+									обстановке. Удобно, что при необходимости все под рукой – и ксерокс, 
+									и принтер и магазин канцелярии. Заключаю здесь свои лучшие договора. 
+									Единственное пожелание – сделайте еще несколько переговорных комнат 
+									на 10-15 человек, а то они пользуются большим спросом и не всегда есть 
+									возможность забронировать.</p>
+								</div>
+							</li>
 
-						</ul>	
+							</ul><!-- /.testimonials -->
 
-						<div class="pagination">
-						<div class="pagination__pages">
-							<p class="pagination__pages_text">Страница 1 из 7</p>
-						</div>
-	            <div class="pagination__left">
-	            	<i class="fa fa-angle-left"></i>                        
-	          	</div>
-	                        
+							<div class="pagination">
+
+								<div class="pagination__pages">
+									<p class="pagination__pages_text">Страница 1 из 7</p>
+								</div>
+
+		            <div class="pagination__left">
+		            	<i class="fa fa-angle-left"></i>                        
+		          	</div>
+		                        
 	            	<ul class="pagination__page">
-									<li class="pagination__number pagination__number_current">1</li>
-									<li class="pagination__number"><a class="pagination__link" href="#">2</a></li>
-									<li class="pagination__number"><a class="pagination__link" href="#">3</a></li>
-									<li class="pagination__number"><a class="pagination__link" href="#">4</a></li>
-									<li class="pagination__number"><a class="pagination__link" href="#">5</a></li>
-									<li class="pagination__number"><a class="pagination__link" href="#">6</a></li>
-									<li class="pagination__number"><a class="pagination__link" href="#">7</a></li>
+									<li class="pagination__number pagination__number_current">
+										<a class="pagination__link" href="#">1</a>
+									</li>
+									<li class="pagination__number">
+										<a class="pagination__link" href="#">2</a>
+									</li>
+									<li class="pagination__number">
+										<a class="pagination__link" href="#">3</a>
+									</li>
+									<li class="pagination__number">
+										<a class="pagination__link" href="#">4</a>
+									</li>
+									<li class="pagination__number">
+										<a class="pagination__link" href="#">5</a>
+									</li>
+									<li class="pagination__number">
+										<a class="pagination__link" href="#">6</a>
+									</li>
+									<li class="pagination__number">
+										<a class="pagination__link" href="#">7</a>
+									</li>
 								</ul>
-	                        	
-	            <div class="pagination__right">
-	            	<a href="#"><i class="fa fa-angle-right"></i></a>                        
-	          	</div>
-            </div><!--/.pagination-->
+		                        	
+		            <div class="pagination__right">
+		            	<a href="#"><i class="fa fa-angle-right"></i></a>                        
+		          	</div>
 
-          	<div class="form-response">
-            	<h2>Обратная связь</h2>
-            	<div class="form-response__wrapper">
-            		<form class="form-response__form" action="" method="POST">
-            			<div class="form-response__inputs">
-            				
-            				<div class="form-response__row">
-	            				<div class="form-response__point">
-	            					<label class="form-response__title" for="name">Ваше имя:</label>
-	            					<input class="form-response__input" type="text">
+	            </div><!--/.pagination-->
+
+	          	<div class="form-response">
+	            	<h2 class="form-response__header">Оставить отзыв</h2>
+	            	<div class="form-response__wrapper">
+
+	            		<form class="form-response__form" action="" method="POST">
+
+	            			<div class="form-response__inputs">
+	            				
+	            				<div class="form-response__row">
+		            				<div class="form-response__point">
+		            					<label class="form-response__title" for="name">Ваше имя:</label>
+		            					<input class="form-response__input" type="text" placeholder="Евгений">
+		            				</div>
+		            				<div class="form-response__point">
+		            					<label class="form-response__title" for="name">Ссылка на профиль в ВК:</label>
+		            					<input class="form-response__input" type="url" placeholder="https://vk.com">
+		            				</div>
+	            				</div><!--/.form-response__row-->
+
+	            				<div class="form-response__row">
+	            					<div class="form-response__message">
+	            						<label class="form-response__title" for="">Текст отзыва:</label>
+	            						<textarea class="form-response__text" name="" id="" cols="30" rows="10">Мне понравилось</textarea>
+	            					</div>
 	            				</div>
-	            				<div class="form-response__point">
-	            					<label class="form-response__title" for="name">Ссылка на профиль в ВК:</label>
-	            					<input class="form-response__input" type="url">
+
+	            			</div><!--/.form-response__inputs-->
+
+	            			<div class="form-response__btn clearfix">
+
+	            				<div class="form-response__radios">
+	            					<div class="form-response__radios-title">Отображать фото в отзыве?</div>
+	            					<div class="form-response__radios-point">
+	            						<div class="form-response__radio">
+	            							<input class="form-response__radio-check" type="radio" id="radio-1" name="radio">
+	            							<label class="form-response__radio-name" for="radio-1">Да</label>
+	            						</div>
+	            						<div class="form-response__radio">
+	            							<input class="form-response__radio-check" type="radio" id="radio-2" name="radio">
+	            							<label class="form-response__radio-name" for="radio-2">Нет</label>
+	            						</div>
+	            					</div>
 	            				</div>
-            				</div><!--/.form-response__row-->
 
-            				<div class="form-response__row">
-            					<div class="form-response__message">
-            						<label class="form-response__title" for="">Текст отзыва:</label>
-            						<textarea class="form-response__text" name="" id="" cols="30" rows="10">Мне понравилось</textarea>
-            					</div>
-            				</div>
+	            				<div class="form-response__button">
+	            					<button class="form-response__submit button" type="submit">Отправить</button>
+	            				</div>
 
-            			</div><!--/.form-response__inputs-->
-            			<div class="form-response__btn">
-            				<div class="form-response__radios">
-            					<div class="form-response__radios-title">Отображать фото в отзыве?</div>
-            					<div class="form-response__radios-point">
-            						<div class="form-response__radio">
-            							<input class="form-response__radio-check" type="radio">
-            							<label class="form-response__radio-name" for="">Да</label>
-            						</div>
-            						<div class="form-response__radio">
-            							<input class="form-response__radio-check" type="radio">
-            							<label class="form-response__radio-name" for="">Нет</label>
-            						</div>
-            					</div>
-            				</div>
-            				<div class="form-response__button-group">
-            					<input class="form-response__reset" type="reset" value="Очистить">
-            					<input class="form-response__submit" type="submit" value="Отправить">
-            				</div>
-            			</div>
-            		</form>
-            	</div><!--/.form-response__wrapper-->
-            </div><!--/.form-response-->
+	            			</div><!-- /.form-response__btn -->
+
+	            		</form>
+
+	            	</div><!--/.form-response__wrapper-->
+	            </div><!--/.form-response-->
 
 					</div><!-- /.our-price -->
 				</div><!-- /.content -->
@@ -229,7 +256,7 @@
 
 		<div class="box box_first">
 			<p class="box__text">Сделано с любовью и старанием<br/>
-			на курсе «HTML + CSS» в <a class="box__school" href="https://loftschool.com" target="_blank">LoftSchool</a>.<br/>
+			на курсе «Основы верстки - 2017» в <a class="box__school" href="https://loftschool.com" target="_blank">LoftSchool</a>.<br/>
 			Автор работы: <a class="box__author" href="https://vk.com/elarkov" target="_blank">Ларков Евгений</a></p>
 		</div>
 
@@ -244,27 +271,27 @@
 				<ul class="list">
 					<li class="list__item">
 						<a class="list__link" href="#">
-						<i class="fa fa-vk"></i>
+							<i class="fa fa-vk"></i>
 						</a>
 					</li>
 					<li class="list__item">
 						<a class="list__link" href="#">
-						<i class="fa fa-facebook"></i>
+							<i class="fa fa-facebook"></i>
 						</a>
 					</li>
 					<li class="list__item">
 						<a class="list__link" href="#" >
-						<i class="fa fa-google-plus"></i>
+							<i class="fa fa-google-plus"></i>
 						</a>
 					</li>
 					<li class="list__item">
 						<a class="list__link" href="#">
-						<i class="fa fa-twitter"></i>
+							<i class="fa fa-twitter"></i>
 						</a>
 					</li>
 					<li class="list__item">
 						<a class="list__link" href="#">
-						<i class="fa fa-envelope"></i>
+							<i class="fa fa-envelope"></i>
 						</a>
 					</li>
 				</ul>
@@ -272,5 +299,9 @@
 		</div><!--/.box box_last-->
 	</div><!--/.container-->
 </footer>	
+
+<script src="js/jquery.min.js"></script>
+<script src="js/custom.js"></script>
+
 </body>
 </html>
