@@ -65,14 +65,14 @@
   text-align: left; 
 }
 
-.list {
+.social-list {
   display: inline-block;
   margin: 6px 0;
   padding: 0; 
   list-style: none; 
 }
 
-.list__item {
+.social-list__item {
   display: inline-block;
   margin-right: 6px; 
 }
@@ -80,7 +80,7 @@
 
 /*=== icon fonts ==*/
 
-.list__link {
+.social-list__link {
   display: block;
   width: 20px;
   height: 20px;
@@ -96,6 +96,6 @@
   transition: color .5s ease, background-color .5s ease; 
 }
 
-.list__link:hover {
+.social-list__link:hover {
   background-color: rgba(236, 30, 121, 0.8); 
 }

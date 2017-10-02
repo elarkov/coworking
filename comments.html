@@ -27,13 +27,15 @@
 			</a>
 			<address class="contacts">
 				<a class="contacts__phone" href="tel:+7 800 00-392-10">8 (800) 00-392-10</a>
-				<span class="contacts__chart">График работы</span>
-				<div class="dropdown">
-					<ul class="dropdown__list">
-						<li class="dropdown__item">пн-вс: 09:00-20:00</li>
-						<li class="dropdown__item">обед: 14:00-14:30 </li>
-					</ul>
-					<div class="triangle">
+				<div class="contacts__hover">
+					<span class="contacts__chart">График работы</span>
+					<div class="dropdown">
+						<ul class="dropdown__list">
+							<li class="dropdown__item">пн-вс: 09:00-20:00</li>
+							<li class="dropdown__item">обед: 14:00-14:30 </li>
+						</ul>
+						<div class="triangle">
+						</div>
 					</div>
 				</div>
 			</address><!--/.contacts-->
@@ -154,39 +156,45 @@
 								<div class="pagination__pages">
 									<p class="pagination__pages_text">Страница 1 из 7</p>
 								</div>
-
-		            <div class="pagination__left">
-		            	<i class="fa fa-angle-left"></i>                        
-		          	</div>
-		                        
-	            	<ul class="pagination__page">
-									<li class="pagination__number pagination__number_current">
-										<a class="pagination__link" href="#">1</a>
-									</li>
-									<li class="pagination__number">
-										<a class="pagination__link" href="#">2</a>
-									</li>
-									<li class="pagination__number">
-										<a class="pagination__link" href="#">3</a>
-									</li>
-									<li class="pagination__number">
-										<a class="pagination__link" href="#">4</a>
-									</li>
-									<li class="pagination__number">
-										<a class="pagination__link" href="#">5</a>
-									</li>
-									<li class="pagination__number">
-										<a class="pagination__link" href="#">6</a>
-									</li>
-									<li class="pagination__number">
-										<a class="pagination__link" href="#">7</a>
-									</li>
-								</ul>
-		                        	
-		            <div class="pagination__right">
-		            	<a href="#"><i class="fa fa-angle-right"></i></a>                        
-		          	</div>
-
+								<div class="pagination__wrapper">
+			            <div class="pagination__left">
+			            	<a class="pagination__arrow" href="#">
+			            		<i class="fa fa-angle-left"></i>
+		            		</a>                       
+			          	</div>
+			                        
+		            	<ul class="pagination__page">
+		        
+										<li class="pagination__number pagination__number_current">
+											<a class="pagination__link" href="#">1</a>
+										</li>
+										<li class="pagination__number">
+											<a class="pagination__link" href="#">2</a>
+										</li>
+										<li class="pagination__number">
+											<a class="pagination__link" href="#">3</a>
+										</li>
+										<li class="pagination__number">
+											<a class="pagination__link" href="#">4</a>
+										</li>
+										<li class="pagination__number">
+											<a class="pagination__link" href="#">5</a>
+										</li>
+										<li class="pagination__number">
+											<a class="pagination__link" href="#">6</a>
+										</li>
+										<li class="pagination__number">
+											<a class="pagination__link" href="#">7</a>
+										</li>
+										
+									</ul>
+			                        	
+			            <div class="pagination__right">
+			            	<a class="pagination__arrow" href="#">
+			            		<i class="fa fa-angle-right"></i>
+		            		</a>                        
+			          	</div>
+								</div>
 	            </div><!--/.pagination-->
 
 	          	<div class="form-response">
@@ -198,32 +206,32 @@
 	            			<div class="form-response__inputs">
 	            				
 	            				<div class="form-response__row">
-		            				<div class="form-response__point">
-		            					<label class="form-response__title" for="name">Ваше имя:</label>
+		            				<label class="form-response__point">
+		            					<span class="form-response__title" for="name">Ваше имя:</span>
 		            					<input class="form-response__input" type="text" placeholder="Евгений">
-		            				</div>
-		            				<div class="form-response__point">
-		            					<label class="form-response__title" for="name">Ссылка на профиль в ВК:</label>
+		            				</label>
+		            				<label class="form-response__point">
+		            					<span class="form-response__title" for="name">Ссылка на профиль в ВК:</span>
 		            					<input class="form-response__input" type="url" placeholder="https://vk.com">
-		            				</div>
+		            				</label>
 	            				</div><!--/.form-response__row-->
 
 	            				<div class="form-response__row">
-	            					<div class="form-response__message">
-	            						<label class="form-response__title" for="">Текст отзыва:</label>
-	            						<textarea class="form-response__text" name="" id="" cols="30" rows="10">Мне понравилось</textarea>
-	            					</div>
+	            					<label class="form-response__message">
+	            						<span class="form-response__title" for="">Текст отзыва:</span>
+	            						<textarea class="form-response__text" name="" id="" cols="30" rows="10" placeholder="Мне понравилось"></textarea>
+	            					</label>
 	            				</div>
 
 	            			</div><!--/.form-response__inputs-->
 
-	            			<div class="form-response__btn clearfix">
+	            			<div class="form-response__btn">
 
 	            				<div class="form-response__radios">
 	            					<div class="form-response__radios-title">Отображать фото в отзыве?</div>
 	            					<div class="form-response__radios-point">
 	            						<div class="form-response__radio">
-	            							<input class="form-response__radio-check" type="radio" id="radio-1" name="radio">
+	            							<input class="form-response__radio-check" type="radio" id="radio-1" name="radio" checked>
 	            							<label class="form-response__radio-name" for="radio-1">Да</label>
 	            						</div>
 	            						<div class="form-response__radio">
@@ -268,29 +276,29 @@
 		<div class="box box_last">
 			<p class="box__header">Наши социальные сети</p>
 			<div class="footer__social">
-				<ul class="list">
-					<li class="list__item">
-						<a class="list__link" href="#">
+				<ul class="social-list">
+					<li class="social-list__item">
+						<a class="social-list__link" href="#">
 							<i class="fa fa-vk"></i>
 						</a>
 					</li>
-					<li class="list__item">
-						<a class="list__link" href="#">
+					<li class="social-list__item">
+						<a class="social-list__link" href="#">
 							<i class="fa fa-facebook"></i>
 						</a>
 					</li>
-					<li class="list__item">
-						<a class="list__link" href="#" >
+					<li class="social-list__item">
+						<a class="social-list__link" href="#" >
 							<i class="fa fa-google-plus"></i>
 						</a>
 					</li>
-					<li class="list__item">
-						<a class="list__link" href="#">
+					<li class="social-list__item">
+						<a class="social-list__link" href="#">
 							<i class="fa fa-twitter"></i>
 						</a>
 					</li>
-					<li class="list__item">
-						<a class="list__link" href="#">
+					<li class="social-list__item">
+						<a class="social-list__link" href="#">
 							<i class="fa fa-envelope"></i>
 						</a>
 					</li>

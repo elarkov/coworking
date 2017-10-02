@@ -108,13 +108,7 @@
   background-size: cover;
 }
 
-.main__logo {
-  width: 161px;
-  height: 119px;
-  margin: 0 auto;
-}
-
-.main__center {
+.main-center {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -122,6 +116,12 @@
   height: 200px;
   text-align: center;
   transform: translate(-50%,-50%);
+}
+
+.main-center__logo {
+  width: 161px;
+  height: 119px;
+  margin: 0 auto;
 }
 
 .button {
@@ -141,15 +141,6 @@
   outline: none;
   cursor: pointer;
   -webkit-animation-duration: 3s;
-}
-
-.button:after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  bottom: 0;
-  transition: background-color .2s ease;
 }
 
 .button:focus, 
@@ -172,12 +163,6 @@
 
 .button:active:after {
   opacity: .32;
-}
-
-.button__link {
-  font-family: "gothapro", sans-serif;
-  text-decoration: none;
-  color: #fff;
 }
 
 
@@ -277,7 +262,7 @@
 }
 
 .about__footer {
-  margin-bottom: 72px;
+  margin-bottom: 0px;
 }
 
 .about__adv {
@@ -291,6 +276,14 @@
   vertical-align: middle;
   text-align: center;
   line-height: 104px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: 1.5s;
+}
+
+.about__box:hover {
+  -webkit-filter: none;
+  filter: none;
 }
 
 .about__link {
@@ -491,7 +484,7 @@
 /*=== $comments page ===*/
 
 .testimonials {
-  margin: 0 0 16px 0;
+  margin: 0 0 26px 0;
   padding: 0;
 }
 
@@ -510,6 +503,7 @@
 .testimonials__img {
   float: left;
   width: 160px;
+  margin-right: 21px;
 }
 
 .testimonials__desc {
@@ -552,7 +546,7 @@
 }
 
 .pagination__pages_text {
-  font-family: "gothapro", sans-serif;
+  margin: 0;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.5;
@@ -566,6 +560,18 @@
   list-style: none;
 }
 
+.pagination__wrapper {
+  display: inline-block;
+}
+
+.pagination__arrow {
+  color: #000000;
+}
+
+.pagination__arrow:hover {
+  opacity: .3;
+} 
+
 .pagination__number {
   display: inline-block;
 }
@@ -573,7 +579,6 @@
 .pagination__left {
   display: inline-block;
   margin-right: 11px;
-  opacity: 0.3;
 }
 
 .pagination__right {
@@ -619,18 +624,23 @@
 .form-response {
   width: 700px;
   margin-bottom: 42px;
-  padding: 32px 70px 50px 70px;
+  padding: 60px 70px 50px 70px;
   background-color: #f5f5f5;
 }
 
 .form-response__row {
-  margin-bottom: 0px;
+  margin-bottom: 20px;
+}
+
+.form-response__row:last-child {
+  margin-bottom: 0;
 }
 
 .form-response__header {
-  margin: 0;
+  margin: 0 0 20px 0;
   font-size: 49px;
   font-weight: 700;
+  line-height: 1;
 }
 
 .form-response__inputs {
@@ -677,10 +687,12 @@
 .form-response__text {
   width: 100%;
   height: 90px;
+  padding: 10px;
   font-size: 14px;
   font-weight: 300;
   color: #221f1f;
   border: 1px solid transparent;
+  opacity: 0.5;
   resize: none;
 }
 
@@ -691,6 +703,12 @@
 
 .form-response__btn {
   overflow: hidden;
+}
+
+.form-response__btn:before {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .form-response__radios {
