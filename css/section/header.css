@@ -15,6 +15,7 @@
 .contacts {
   float: right;
   display: inline-block;
+  padding-top: 6px;
   color: #ffffff;
   text-align: right;
 }
@@ -48,13 +49,13 @@
 }
 
 .contacts__hover:hover .dropdown {
-  left: 17%;
+  left: 20%;
   opacity: 1;
 }
 
 .dropdown {
   position: absolute;
-  top: 40px;
+  top: 36px;
   left: -9999px;
   z-index: 10;
   width: 162px;
